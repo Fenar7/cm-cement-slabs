@@ -3,6 +3,9 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.44) 0%, rgba(0, 0, 0, 0.44) 100%), url(/images/bg/Concrete\ Fencing.jpeg), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+    @media(max-width: 760px){
+      height: 40em;
+    }
 
     .content{
         height: 100%;
@@ -17,6 +20,9 @@
             font-weight: 400;
             line-height: normal;
             margin: 0;
+            @media(max-width: 760px){
+                font-size: 2rem;
+            }
         }
 
         p{
@@ -28,6 +34,9 @@
             font-weight: 300;
             line-height: normal;
             margin: 0;
+            @media(max-width: 760px){
+                font-size: 1rem;
+            }
         }
 
         button{
@@ -68,6 +77,46 @@
         height: 100%;
 
         .row{
+
+            .image-section{
+                position: relative;
+                @media(max-width: 760px){
+                  height: 40em;
+                }
+
+                @media(max-width: 760px){
+                    height: 40em;
+                }
+                img{
+                    width: 19.3em;
+                    height: 26.3em;
+                    object-fit: cover;
+
+                    @media(max-width: 760px){
+                        width: 15em;
+                        height: 23em;
+                    }
+                 }
+
+                 .img-1{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border-radius: 1.875rem;
+                 }
+
+                 .img-2{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    border-radius: 1.875rem;
+                    border: 6px solid #FFF;
+                    background: #FFF;
+                    box-shadow: -2px 6px 8px 0px rgba(0, 0, 0, 0.37);
+                 }
+            }
+
+
             .content{
                 position: relative;
                 hr{
@@ -229,9 +278,14 @@
     }
 
     img{
-        width: 30rem;
-        height: 30rem;
+        width: 25rem;
+        height: 25rem;
         object-fit: cover;
+
+        @media(max-width: 760px){
+            width: 15rem;
+            height: 15rem;
+        }
     }
 
     button{
@@ -379,4 +433,60 @@
             }
         }
     }
+}
+
+footer{
+    background-color: black;
+
+    .row{
+        .logo{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 0.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            align-self: center;
+        }
+
+        .navigation{
+           h2{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 1.2625rem;
+            font-weight: 700;
+            line-height: normal;
+           }
+           ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8em;
+
+            li{
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+           }
+        }
+
+        .contact-us{
+            img{
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+    
+    @media(max-width: 760px){
+        text-align: center;
+    }
+    
 }
