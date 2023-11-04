@@ -1,0 +1,104 @@
+.hero {
+  height: unset;
+}
+.hero .container .row .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.hero .container .row .text h4 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media (min-width: 765px) {
+  .hero .container .row .text h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.hero .container .row .text h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 2.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero .container .row .text p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero .container .row form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.hero .container .row form h2 {
+  color: #D21D00;
+  font-family: Poppins;
+  font-size: 2.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero .container .row form input {
+  width: 100%;
+}
+.hero .container .row form textarea {
+  width: 100%;
+}
+.hero .container .row form button {
+  display: flex;
+  width: 12.0625rem;
+  height: 3.9375rem;
+  padding: 0.8125rem 1.1875rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background-color: #D21D00;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.3s ease-out;
+}
+.hero .container .row form button:hover {
+  transform: scale(1.1);
+}
+.hero .container .row form input[type=text] {
+  border: none;
+  border-bottom: 2px solid #BCBCBC;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  transition: all 0.3s ease-out;
+}
+.hero .container .row form input[type=text]:focus {
+  border-bottom: 2px solid #D21D00;
+}
+.hero .container .row form textarea {
+  border: none;
+  border-bottom: 2px solid #BCBCBC;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  transition: all 0.3s ease-out;
+}
+.hero .container .row form textarea:focus {
+  border-bottom: 2px solid #D21D00;
+}/*# sourceMappingURL=contacts.css.map */
