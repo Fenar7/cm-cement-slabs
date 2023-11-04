@@ -1,6 +1,9 @@
 .top-section{
     height: 50px;
     padding: 0px;
+    @media (max-width: 560px){
+        padding: 0px 20px;
+    }
 
     @media (max-width: 560px){
         .social-icons{
@@ -88,5 +91,9 @@ header{
                 }
             }
         }
+    }
+
+    @media (max-width: 560px){
+        padding: 0px 20px;
     }
 }

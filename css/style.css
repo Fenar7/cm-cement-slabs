@@ -23,6 +23,11 @@ span {
   padding: 0px;
 }
 @media (max-width: 560px) {
+  .top-section {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 560px) {
   .top-section .social-icons img {
     width: 1.3em;
     height: 1.3em;
@@ -99,6 +104,11 @@ header .navbar-collapse .navbar-nav .nav-item .active {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media (max-width: 560px) {
+  header {
+    padding: 0px 20px;
+  }
 }
 
 .hero {
