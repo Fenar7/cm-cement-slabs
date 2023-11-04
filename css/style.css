@@ -22,6 +22,12 @@ span {
   height: 50px;
   padding: 0px;
 }
+@media (max-width: 560px) {
+  .top-section .social-icons img {
+    width: 1.3em;
+    height: 1.3em;
+  }
+}
 .top-section .contact {
   gap: 2.4em;
 }
@@ -38,6 +44,28 @@ span {
 }
 .top-section .contact .call {
   gap: 0.6em;
+}
+@media (max-width: 760px) {
+  .top-section .contact {
+    gap: 1em;
+  }
+  .top-section .contact p {
+    font-size: 0.4em;
+  }
+  .top-section .contact .call {
+    gap: 0.2em;
+  }
+  .top-section .contact .call img {
+    width: 1em;
+    height: 1em;
+  }
+  .top-section .contact .mail {
+    gap: 0.2em;
+  }
+  .top-section .contact .mail img {
+    width: 1.3em;
+    height: 1.3em;
+  }
 }
 
 header {
@@ -316,6 +344,11 @@ header .navbar-collapse .navbar-nav .nav-item .active {
   font-weight: 600;
   line-height: normal;
   margin-top: -20px;
+}
+@media (max-width: 960px) {
+  .our-services .heading h2 {
+    margin-top: 0.4em;
+  }
 }
 .our-services .heading hr {
   position: absolute;
