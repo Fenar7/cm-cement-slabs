@@ -1,0 +1,139 @@
+.hero{
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.44) 0%, rgba(0, 0, 0, 0.44) 100%), url(/images/bg/Concrete\ Fencing.jpeg), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .content{
+        height: 100%;
+        gap: 2em;
+
+        h1{
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 3.8125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+        }
+
+        p{
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin: 0;
+        }
+
+        button{
+            display: flex;
+            width: 12.0625rem;
+            height: 3.9375rem;
+            padding: 0.8125rem 0.9375rem 0.875rem 0.875rem;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 0.625rem;
+            background-color: #D21D00;
+
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            transition: all .3s ease-out;
+        }
+
+        button:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.about-us{
+    background: url(/images/bg/white-texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        height: 100%;
+
+        .row{
+            .content{
+                position: relative;
+                hr{
+                    position: absolute;
+                    top: -10px;
+                    left: 0;
+                    width: 0.3125rem;
+                    height: 6.1875rem;
+                    border: 1px solid #D21D00;
+                    background-color: #D21D00;
+                    opacity: 100%;
+                }
+                h5{
+                    color: #D21D00;
+                    font-family: Poppins;
+                    font-size: 1.75rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin: 0;
+                }
+
+                h2{
+                    margin: 0;
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 4.125rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-top: -20px;
+                }
+
+                .text{
+                    p{
+                        color: #4D4D4D;
+                        font-family: Poppins;
+                        font-size: 1.25rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .button{
+                    button{
+                        display: flex;
+                        width: 12.0625rem;
+                        height: 3.9375rem;
+                        padding: 0.8125rem 0.9375rem 0.875rem 0.875rem;
+                        justify-content: center;
+                        align-items: center;
+                        flex-shrink: 0;
+                        border-radius: 0.625rem;
+                        background-color: #D21D00;
+            
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-size: 1.4rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+            
+                        transition: all .3s ease-out;
+                    }
+                }
+            }
+        }
+    }
+}
