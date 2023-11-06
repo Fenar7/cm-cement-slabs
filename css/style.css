@@ -557,4 +557,9 @@ footer .row .contact-us img {
   footer {
     text-align: center;
   }
+}
+
+.bottom-container {
+  background-color: #000;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
