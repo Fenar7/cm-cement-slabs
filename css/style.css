@@ -562,4 +562,7 @@ footer .row .contact-us img {
 .bottom-container {
   background-color: #000;
   color: #fff;
+}
+.bottom-container .bottom-section {
+  border-top: 1px solid grey;
 }/*# sourceMappingURL=style.css.map */
