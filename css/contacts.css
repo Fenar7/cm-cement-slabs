@@ -101,4 +101,8 @@
 }
 .hero .container .row form textarea:focus {
   border-bottom: 2px solid #D21D00;
+}
+
+.map iframe {
+  width: 100%;
 }/*# sourceMappingURL=contacts.css.map */
